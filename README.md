@@ -1,4 +1,4 @@
-# vue-note-app
+# vue-quiz-app
 
 ## Project setup
 ```
