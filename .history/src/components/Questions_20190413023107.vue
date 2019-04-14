@@ -1,0 +1,21 @@
+<template>
+  <b-jumbotron :lead="'Question #' + (currentQuestion + 1)">
+    <p></p>
+    <b-list-group>
+      <b-list-group-item button>Cras justo odio</b-list-group-item>
+    </b-list-group>
+    <b-button variant="primary" href="#">Submit</b-button>
+    <b-button variant="success" href="#">Next</b-button>
+  </b-jumbotron>
+</template>
+
+<script>
+export default {
+  props: ["currentQuestionNumber", "questions"],
+  data() {
+    return {
+      currentQuestion: 0
+    };
+  }
+};
+</script>
