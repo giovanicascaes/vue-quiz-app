@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/vue-note-app',
+  publicPath: '/vue-quiz-app',
 };
